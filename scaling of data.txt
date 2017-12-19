@@ -1,0 +1,7 @@
+cd C:\Program Files\MATLAB\R2015b\toolbox\libsvm-3.21\windows
+
+svm-scale -l 0 -u 5 -y 0 5 -s trange2 C:\Users\voidpassion\Documents\second\test_class48.txt > stantest8.txt
+
+svm-scale -l 0 -u 10 -s trange2 C:\Users\voidpassion\Documents\second\train_class481.txt > stantrain10.txt
+
+svm-scale -l -10 -u 10 -y -10 10 -s trange2 trains3.txt > trainsd3.txt

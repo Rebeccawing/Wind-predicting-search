@@ -1,0 +1,17 @@
+cd C:\Program Files\MATLAB\R2015b\toolbox\libsvm-3.21\tools
+
+C:\Users\voidpassion\AppData\Local\Programs\Python\Python35-32\python grid.py -log2c -10,10,1 -log2g 10,-10,-1 -v 5 C:\Users\voidpassion\Documents\traincv.txt
+
+C:\Users\voidpassion\AppData\Local\Programs\Python\Python35-32\python gridregress.py -log2c -10,10,1 -log2g 10,-10,-1 -log2p -10,10,1 -v 5 -s 3 -t 2 -m 10000 C:\Users\voidpassion\Documents\traincv.txt
+
+C:\Program Files\MATLAB\R2015b\toolbox\libsvm-3.21\windows\svm-train.exe
+C:\DELL\research\SVM\gnuplot\bin\gnuplot.exe
+
+
+C:\Python27\python gridregression.py -log2c -10,10,1 -log2g 10,-10,-1 -log2p -10,10,1 -v 5 -s 3 -t 2 -m 10000 C:\Users\voidpassion\Documents\traincv.txt
+
+
+
+
+C:\Python27\python grid.py -log2c -10,10,2 -log2g 10,-10,-2 -v 5 -s 0 -t 2 C:\Users\voidpassion\Documents\classtr2.txt
+

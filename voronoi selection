@@ -1,0 +1,56 @@
+%a=[1,2,5,3,7];
+%b=[3,5,6,1,2];
+%s=power(1+a(),2);
+%s=power(3-a(),2)+power(1-b(),2);
+%eval(s);
+%q=max(s);
+%x=find(s==max(s));
+%fprintf('maximum is %d\n',q);
+%fprintf('location is %d\n',x);
+%x1=a(x);
+%fprintf('%d\n',x1);
+%plot(a,b,'.');
+%hold on;
+%plot(a(2),b(2),'*');
+%X=[42,28,32,58,69,86,22,51,43,24,75,79,39,32,48,28,16,40,29,25]; 
+%Y=[84,23,43,37,69,94,22,75,52,75,87,24,93,4,56,88,17,43,33,57];
+%Options.plot=1;
+%v=[0 0;0 100;100 100;100 0]; 
+%P = polytope(v);
+%Options.pbound=P;
+%mpt_voronoi([X' Y'],Options);
+%A=rand(2,10);
+%pbound=polytope([0 0 0;150 0 0;150 150 0;0 150 0; 0 0 1;150 0 1;150 150 1;0 150 1]);
+%Options.pbound=pbound;
+%V=mpt_voronoi(A);
+%plot(V);
+%v=[0 0;0 1;1 1;1 0];
+%P = polytope(v)
+%Options.pbound=P;
+%P = mpt_voronoi(rand(100,2),Options);
+%plot(P);
+%voronoi(a,b);
+%[v,c]=voronoin([a;b]');
+%fprintf('各顶点坐标为：%d %d\n',[(v(c{5},1))'; (v(c{5},2))']);
+%A=[(v(c{5},1))'; (v(c{5},2))'];
+%d1=[];
+%d2=[];
+%for i=1:2
+ %   r=power(a(5)-A(i,1),2)+power(b(5)-A(i,2),2);
+  %  o=1;
+   % k=o;
+    %for j=1:5
+     %   if r==power(a(j)-A(i,1),2)+power(b(j)-A(i,2),2) && j~=i
+      %      d1(k)=a(j);
+       %     d2(k)=b(j);
+        %end
+        %k=k+1;
+    %o=k;
+    %end
+%end
+
+%fprintf('%d %d\n',[(d1)';(d2)']);
+
+a=[];
+for i=1:3
+    if 
